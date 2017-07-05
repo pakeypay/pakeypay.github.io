@@ -28,13 +28,27 @@ Some useful tips to help you get started:
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
+1. optimize the pictures,reduce the size of the images.
+
+1. Incline style.css. to the ```<head>``` label
+1. async the analytics.js ```<script>```.
+
+1. async webfont by inserting a ```<script>``` in the ```<footer>```.
+
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+
 
 #### Part 2: Optimize Frames per Second in pizza.html
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
+
+1. use getElementById and getElementByClassName to replace the querySelector* and querySelectorAll.
+
+1. take document.body.scrollTop out of the circle.
+
+1. reduce the number of the pizza.
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
