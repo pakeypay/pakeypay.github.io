@@ -19,7 +19,7 @@ minify:
   minifyOutput: true
 
 taxonomies:
-  tag: tags
+  # tag: tags
   series: series
   category: categories
 
@@ -66,7 +66,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi！"
-    Content: "我是宁！曾在阿里巴巴做设计，分享日常思考在飞书。若你觉着有意思，可以展开加我微信。"
+    Content: "我是宁！曾在阿里巴巴做设计，分享职场和生活的感悟在这里。也会在微博和朋友圈分享日常思考。若你觉着有意思，可以加我微信：pakeypay。"
 
   # socialIcons:
   #   - name: weibo
@@ -110,9 +110,13 @@ params:
     
 menu:
   main:
-    - identifier: series
-      name: 系列文章
-      url: /series/
+    #- identifier: series
+    #  name: 系列文章
+    #  url: /series/
+    #  weight: 3
+    - identifier: archives
+      name: 归档
+      url: /archives/
       weight: 1
 
     - identifier: categories
@@ -125,7 +129,4 @@ menu:
   #    url: /tags/
   #    weight: 10
     
-    # - identifier: archives
-  #   name: 归档
-    #   url: /archives/
-    #   weight: 3
+
