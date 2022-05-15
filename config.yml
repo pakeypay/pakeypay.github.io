@@ -68,11 +68,11 @@ params:
     Title: "Hi！"
     Content: "我是宁！曾在阿里巴巴做设计，分享日常思考在飞书。若你觉着有意思，可以展开加我微信。"
 
-   socialIcons:
-     - name: weibo
-       url: "https://weibo.com/shaoning001"
-     - name: wechat
-       url: "https://stackoverflow.com"
+  # socialIcons:
+  #   - name: weibo
+  #     url: "https://weibo.com/shaoning001"
+  #   - name: wechat
+  #     url: "https://stackoverflow.com"
   #   - name: github
   #     url: "https://github.com/"
 
