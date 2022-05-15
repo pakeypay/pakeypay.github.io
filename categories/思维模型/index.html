@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Obsidian | 宁少</title>
+<title>思维模型 | 宁少</title>
 <meta name=keywords content>
 <meta name=description content="不想写代码的设计师不是一个好产品经理">
 <meta name=author content="宁少">
-<link rel=canonical href=https://pakeypay.github.io/tags/obsidian/>
+<link rel=canonical href=https://pakeypay.github.io/categories/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%9E%8B/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.d5590d57756ebf96ee382667df08935d06d961a5a3a0fa645cd762193fbd8e5b.css integrity="sha256-1VkNV3Vuv5buOCZn3wiTXQbZYaWjoPpkXNdiGT+9jls=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://pakeypay.github.io/images/favicon64.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://pakeypay.github.io/images/favicon16.ico>
@@ -16,15 +16,15 @@
 <link rel=mask-icon href=https://pakeypay.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<link rel=alternate type=application/rss+xml href=https://pakeypay.github.io/tags/obsidian/index.xml>
+<link rel=alternate type=application/rss+xml href=https://pakeypay.github.io/categories/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%9E%8B/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
-<script>var _hmt=_hmt||[];(function(){var a=document.createElement("script"),b;a.src="https://hm.baidu.com/hm.js?d49ee6f85b43e02f356ca3b9d04d1e7f",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script><meta property="og:title" content="Obsidian">
+<script>var _hmt=_hmt||[];(function(){var a=document.createElement("script"),b;a.src="https://hm.baidu.com/hm.js?d49ee6f85b43e02f356ca3b9d04d1e7f",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script><meta property="og:title" content="思维模型">
 <meta property="og:description" content="不想写代码的设计师不是一个好产品经理">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://pakeypay.github.io/tags/obsidian/"><meta property="og:site_name" content="宁少">
+<meta property="og:url" content="https://pakeypay.github.io/categories/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%9E%8B/"><meta property="og:site_name" content="宁少">
 </head>
 <body class=font-fang-songlist id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -39,8 +39,8 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://pakeypay.github.io/series/ title=系列文章>
-<span>系列文章</span>
+<a href=https://pakeypay.github.io/archives/ title=归档>
+<span>归档</span>
 </a>
 </li>
 <li>
@@ -53,30 +53,28 @@
 </header>
 <main class="main font-fang-song">
 <header class=page-header>
-<h1>Obsidian</h1>
+<h1>思维模型</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Obsidian + Hugo 最佳配置推荐
+<h2>壁垒就是我的核心竞争力
 </h2>
 </header>
 <section class=entry-content>
-<p>静态博客的出现，革了后端的命，极大的简化了搭建环节。但是与此同时，在写作方式上，更加依赖第三方编辑器，能否找到一个合适的编辑器成了大多数人能否坚持使用下去的源动力。本文基于 Hugo 静态博客推荐个人认为最优的编辑器 Obsidian。
-Obsidian 是一款非常优秀的双链笔记编辑器。其最主要亮点功能是通过双链构建知识网络。具有完备的编辑器、强大的命令工具以及众多优秀的插件。
-关于 Obsidian 的相关配置方案可以参考上一篇文章《 Hugo 博客写作最佳实践 》，在文章中，介绍了如何通过 QuickAdd 插件快速创建一篇博文，以及如何快速编写发布文章，其中还包括如何进行静态资源同步上传图床以及外链回写的实现。
-本文主要介绍在实现上文的工作流的基础上，一些写作最佳实践。
-1.美观 写作是一个长期的行为，在写作过程中需要一直面对编辑器进行构思，编写，排版，调整。所以，一个符合个人审美的编辑器尤为重要。
-Obsidian 编辑器本身作为一个颜值在线的编辑器，已经具备了很高的颜值起点。而且如果对官方主题不满意的话，可以在设置中的外观菜单项里打开主题管理功能，在主题社区中选择符合个人需求的主题进行替换。
-除此之外，我们还可以通过自定义 CSS 代码片段对部分展示效果进行调整。这里提供修改编辑器字体的样例。
-在外观选项中点击文件夹图标打开 CSS 代码片段目录
-在打开的目录中新建文件 字体修改.css 并在文件中输入如下内容。
-.view-content div.cm-line,.cm-string { font-family: "仿宋" !important; } .markdown-preview-section { font-family: "仿宋" !important; } 效果如下：
-2.方便 基于当前的工作流程，在 Obsidian 中我们已经可以完成从创建到编写到发布所有工作。但是这还不够，既然使用了 Obsidian，我们虽然没办法使用其丰富的 markdown 语法。但是不耽误享受其丰富的插件系统带来的种种便利。
-这里推荐另外两个插件 homepage 和 dataview
-homepage 允许 Obsidian 在打开之后显示默认笔记页面作为仪表面板 dataview 是 Obsidian 众多插件中，构建索引的王者。 通过 homepage ，可以设定一个页面作为 Obsidian 打开之后的默认主仪表面板。在上篇文章中，创建了 obs_scripts 目录用来存储创建文章的脚本。本文复用该目录，在其中创建一篇名叫 主面板 的笔记。...</p>
+<p>上周朋友给我推荐了一本书叫我把一切告诉你。作者是化工毕业之后，先后在传媒，装修，设计多个行业从业。现在是智能硬件的一位创业者。
+朋友提到这本书是提到了学习方法：作者用一个学习模型在极短的时间内成为了一位装修设计师。
+壁垒存在吗？ 我看完之后，最大的感触是另一个角度：壁垒。以及衍生的几个问题： 1，当前，行业壁垒还存在吗？它是什么？ 2，如果存在，我这个行业的壁垒(核心优势)是什么？ 3，如果不存在，那我该怎么做？
+大多数的壁垒都是假的 这几天我的一些思考。给各位同学抛砖引玉： 1，行业壁垒存在，但是一旦我们能接触到的行业，这种壁垒就是可能打破的。 对的，除非我接触不到的，比如航天领域，一旦我能接触到，就一定是是有迹可循的。
+第一个例子是我的一位学长。现在是大厂的设计负责人，之前聊天他提到:他现在带人，给他一位专科毕业的同学，只要悟性好态度没问题，培训半年，就可以做。 这位学长算是行业内顶尖的技术人才了。她这么说也是她自己的一些经历。
+第二个拿我自己来讲，大学里学的东西，真正用到的可能也只是那几门课，总共花的时间也能数下来。(我的专业已经是专业性要求比较高的的，其他专业的可能更少)
+真正的壁垒是什么？ 那壁垒是什么？我觉着是信息，渠道，思维和习惯。话说回来，我学长作为一个信息和渠道的提供者，会有多少人能接触到他？ 即使是接触到有有几个能够被成为悟性和态度不错的人？
+对于个人来说，我现在的壁垒的分析可以这么做：
+信息和渠道:对产业链的把控和市场产品的动向； 思维和习惯:角色的触点和产品架构，细节把控 ；
+所以，其实对于不在这个行业里的人来说，找一个懂行的人去了解很重要，我就可以是那个人。 对于已经在这个行业里的人来说，我的大部分优势也是思维和习惯无关专业。设计带给我的局部优势只是一小部分。
+我该做什么？ 互联网产品设计已经是专业性较强的一个领域，如果我们这个行业是这样，其他行业的壁垒也不会更高。 1，稳住基本盘，清楚自己的局部优势才能更省精力； 2，保持开放的心态，像做产品迭代一样去迭代自己； 3，主动探索，不局限在自己的领域。更不要被别人局限 -耐心发现新机会，每个人适合的机会不一样。</p>
 </section>
-<footer class=entry-footer><span title="2022-04-12 13:13:22 +0800 +0800">2022/04/12</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;205 words&nbsp;·&nbsp;宁少</footer>
-<a class=entry-link aria-label="post link to Obsidian + Hugo 最佳配置推荐" href=https://pakeypay.github.io/posts/2022m4d12h13m13s22/></a>
+<footer class=entry-footer><span title="2022-05-16 00:06:11 +0800 +0800">2022/05/16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;29 words&nbsp;·&nbsp;宁少</footer>
+<a class=entry-link aria-label="post link to 壁垒就是我的核心竞争力" href=https://pakeypay.github.io/posts/2022m4d12h13m13s22/></a>
 </article>
 </main>
 <footer class=footer>
