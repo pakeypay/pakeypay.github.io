@@ -7,8 +7,12 @@
         "id": "e1b92f7e9336d8ce",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/moment/2022年05月16日.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/moment/2022年05月16日.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "e1b92f7e9336d8ce",
   "lastOpenFiles": [
-    "content/posts/tedtfule.md",
+    "content/moment/2022年05月16日.md",
     "content/posts/2022m4d12h13m13s22.md",
+    "content/posts/我们到底为什么这么做？.md",
     "content/posts/2022m4d11h19m42s28.md",
+    "archetypes/default.md",
     "obs_scripts/主面板.md",
     "content/posts/2022m4d11h21m28s19.md",
     "content/posts/2022m4d11h21m26s57.md",
-    "archetypes/default.md",
     "content/posts/2022m4d11h17m57s48.md",
-    "content/posts/test.md",
-    "content/posts/first-page.md"
+    "content/posts/test.md"
   ]
 }

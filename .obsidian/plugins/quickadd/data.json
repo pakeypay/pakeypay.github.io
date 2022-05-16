@@ -34,6 +34,34 @@
       "type": "Macro",
       "command": true,
       "macroId": "566b8332-8529-4ab6-bcca-1571b8dd382d"
+    },
+    {
+      "id": "e626015f-56a3-43b5-8001-710a9ebd483e",
+      "name": "新建博文",
+      "type": "Template",
+      "command": true,
+      "templatePath": "archetypes/default.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
