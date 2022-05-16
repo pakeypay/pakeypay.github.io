@@ -7,8 +7,12 @@
         "id": "8a61c5d82202a467",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/2022m4d11h19m42s28.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,8 +69,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "content/posts/2022m4d11h19m42s28.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -85,8 +90,8 @@
   "active": "8a61c5d82202a467",
   "lastOpenFiles": [
     "content/posts/2022m4d11h19m42s28.md",
-    "content/posts/tedtfule.md",
     "content/posts/2022m4d12h13m13s22.md",
+    "content/posts/tedtfule.md",
     "obs_scripts/主面板.md",
     "content/posts/2022m4d11h21m28s19.md",
     "content/posts/2022m4d11h21m26s57.md",

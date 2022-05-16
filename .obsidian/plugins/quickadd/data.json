@@ -1,35 +1,21 @@
 {
   "choices": [
     {
-      "id": "6f5a8440-cd83-475c-a812-26a1cd4e7614",
-      "name": "创建博客",
-      "type": "Macro",
-      "command": true,
-      "macroId": "11226ba0-ac67-4c3e-abd4-59e083c09a2c"
-    },
-    {
       "id": "98c342db-008f-4ac7-b268-7f0e2f91b0f7",
       "name": "发布博客",
       "type": "Macro",
       "command": true,
       "macroId": "566b8332-8529-4ab6-bcca-1571b8dd382d"
+    },
+    {
+      "id": "82fdd5f4-f917-45af-ab34-9851727871f1",
+      "name": "新建文章",
+      "type": "Macro",
+      "command": true,
+      "macroId": null
     }
   ],
   "macros": [
-    {
-      "name": "新建博客",
-      "id": "11226ba0-ac67-4c3e-abd4-59e083c09a2c",
-      "commands": [
-        {
-          "name": "NewBlog",
-          "type": "UserScript",
-          "id": "708292ca-25fc-4bdc-895d-85d40cd91e7b",
-          "path": "obs_scripts/NewBlog.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
     {
       "name": "发布文章",
       "id": "566b8332-8529-4ab6-bcca-1571b8dd382d",
@@ -48,6 +34,20 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "新建文章",
+      "id": "1c06fecb-e59c-44e0-990a-a62d04fa86c5",
+      "commands": [
+        {
+          "name": "NewBlog",
+          "type": "UserScript",
+          "id": "9de50a29-c4f7-4739-802a-34dc0321172f",
+          "path": "obs_scripts/NewBlog.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "single-line"
