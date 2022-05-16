@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8a61c5d82202a467",
+        "id": "e1b92f7e9336d8ce",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "content/posts/tedtfule.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/tedtfule.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a61c5d82202a467",
+  "active": "e1b92f7e9336d8ce",
   "lastOpenFiles": [
     "content/posts/tedtfule.md",
     "content/posts/2022m4d12h13m13s22.md",

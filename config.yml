@@ -2,6 +2,7 @@ baseURL: 'https://pakeypay.github.io/'
 languageCode: 'zh-ch'
 title: '宁少'
 theme: "PaperMod"
+hasCJKLanguage: true
 
 enableRobotsTXT: true
 buildDrafts: false

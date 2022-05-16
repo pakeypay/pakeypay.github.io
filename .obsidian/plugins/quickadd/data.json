@@ -8,11 +8,32 @@
       "macroId": "566b8332-8529-4ab6-bcca-1571b8dd382d"
     },
     {
-      "id": "82fdd5f4-f917-45af-ab34-9851727871f1",
+      "id": "1a2369b9-08c7-4b7b-b8e6-c6a87cc8f9f4",
       "name": "新建文章",
-      "type": "Macro",
+      "type": "Template",
       "command": true,
-      "macroId": null
+      "templatePath": "obsidian://open?vault=pakeypay.github.io&file=archetypes%2Fdefault",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "newfile"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -33,7 +54,7 @@
           "commandId": "obsidian-git:push2"
         }
       ],
-      "runOnStartup": false
+      "runOnStartup": true
     },
     {
       "name": "新建文章",
@@ -42,7 +63,7 @@
         {
           "name": "NewBlog",
           "type": "UserScript",
-          "id": "9de50a29-c4f7-4739-802a-34dc0321172f",
+          "id": "3b281399-de61-4ffc-9fa8-2183d3319cd1",
           "path": "obs_scripts/NewBlog.js",
           "settings": {}
         }
