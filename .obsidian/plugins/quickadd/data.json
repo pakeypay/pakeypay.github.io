@@ -1,18 +1,11 @@
 {
   "choices": [
     {
-      "id": "98c342db-008f-4ac7-b268-7f0e2f91b0f7",
-      "name": "发布博客",
-      "type": "Macro",
-      "command": true,
-      "macroId": "566b8332-8529-4ab6-bcca-1571b8dd382d"
-    },
-    {
       "id": "1a2369b9-08c7-4b7b-b8e6-c6a87cc8f9f4",
       "name": "新建文章",
       "type": "Template",
       "command": true,
-      "templatePath": "obsidian://open?vault=pakeypay.github.io&file=archetypes%2Fdefault",
+      "templatePath": "archetypes/default.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "newfile"
@@ -34,6 +27,13 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "98c342db-008f-4ac7-b268-7f0e2f91b0f7",
+      "name": "发布博客",
+      "type": "Macro",
+      "command": true,
+      "macroId": "566b8332-8529-4ab6-bcca-1571b8dd382d"
     }
   ],
   "macros": [
