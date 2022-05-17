@@ -67,11 +67,11 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi！"
-    Content: "我是宁！曾在阿里巴巴做设计，分享职场和生活的感悟在这里。也会在微博和朋友圈分享日常思考。若你觉着有意思，可以加我微信：pakeypay。"
+    Content: "我是宁！曾在阿里做设计，分享职场和生活的感悟在这。若你觉着有意思，加我微信：pakeypay。"
 
-   socialIcons:
-     - name: twitter
-       url: "https://weibo.com/shaoning001"
+  # socialIcons:
+   #  - name: twitter
+  #     url: "https://weibo.com/shaoning001"
   #   - name: wechat
   #     url: "https://stackoverflow.com"
   #   - name: github
