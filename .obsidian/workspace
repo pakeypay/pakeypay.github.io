@@ -1,38 +1,29 @@
 {
   "main": {
-    "id": "67e6433860df24b8",
+    "id": "8aefe34d899f3215",
     "type": "split",
     "children": [
       {
-        "id": "173e4fa025a90d1d",
+        "id": "32358f5de1632519",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
-          "type": "markdown",
-          "state": {
-            "file": "content/posts/我们到底为什么这么做？.md",
-            "mode": "source",
-            "source": false
-          }
-=======
           "type": "empty",
           "state": {}
->>>>>>> parent of 357148d (更新)
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7ad1569556e250c3",
+    "id": "bf79c932dba337d5",
     "type": "split",
     "children": [
       {
-        "id": "1012ee8512f91072",
+        "id": "79af82a414749c1f",
         "type": "tabs",
         "children": [
           {
-            "id": "ab9ffd6c83996c4b",
+            "id": "d7ea5ee042bd9155",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,7 +31,7 @@
             }
           },
           {
-            "id": "cb6c970554b4a987",
+            "id": "cbf969111900a751",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,25 +52,21 @@
     "width": 300
   },
   "right": {
-    "id": "e16ccf180aa9c785",
+    "id": "0e4a97f3b75dd79f",
     "type": "split",
     "children": [
       {
-        "id": "6232a8cb36f3024f",
+        "id": "f43093edc26f6def",
         "type": "tabs",
         "children": [
           {
-            "id": "219e8297faf5c063",
+            "id": "379268226b2f30c6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "content/posts/我们到底为什么这么做？.md",
-=======
->>>>>>> parent of 357148d (更新)
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -95,25 +82,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "173e4fa025a90d1d",
+  "active": "32358f5de1632519",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "content/posts/我们到底为什么这么做？.md",
     "content/posts/2022m4d12h13m13s22.md",
-    "content/posts/2022m4d11h19m42s28.md",
-    "content/moment/2022年05月16日.md",
-=======
-    "content/posts/tedtfule.md",
-    "content/posts/2022m4d12h13m13s22.md",
-    "content/posts/2022m4d11h19m42s28.md",
->>>>>>> parent of 357148d (更新)
-    "obs_scripts/主面板.md",
-    "archetypes/default.md",
-    "content/posts/2022m4d11h21m28s19.md",
-    "content/posts/2022m4d11h21m26s57.md",
-    "archetypes/default.md",
-    "content/posts/2022m4d11h17m57s48.md",
-    "content/posts/test.md",
-    "content/posts/first-page.md"
+    "obs_scripts/主面板.md"
   ]
 }
