@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f0cf6cdc66a04592",
+        "id": "7a1d4ecfd640d701",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,10 +82,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f0cf6cdc66a04592",
+  "active": "7a1d4ecfd640d701",
   "lastOpenFiles": [
-    "content/posts/我们到底为什么这么做？.md",
+    "content/posts/好的投资应该是像播种一样.md",
     "content/posts/2022m4d12h13m13s22.md",
-    "obs_scripts/主面板.md"
+    "obs_scripts/主面板.md",
+    "content/posts/我们到底为什么这么做？.md"
   ]
 }
