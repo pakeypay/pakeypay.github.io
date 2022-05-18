@@ -70,10 +70,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi！"
-    Content: "我是宁！曾在阿里巴巴做设计，分享职场和生活的感悟在这里。也会在微博和朋友圈分享日常思考。若你觉着有意思，可以加我微信：pakeypay。"
+    Content: "我是宁！曾在阿里做设计，分享职场和生活的感悟在这。若你觉着有意思，加我微信：pakeypay。"
 
   # socialIcons:
-  #   - name: twitter
+   #  - name: twitter
   #     url: "https://weibo.com/shaoning001"
   #   - name: wechat
   #     url: "https://stackoverflow.com"
@@ -111,26 +111,37 @@ params:
 
   baiduAnalytics:
     url: https://hm.baidu.com/hm.js?d49ee6f85b43e02f356ca3b9d04d1e7f
-    
+ 
 menu:
   main:
-    #- identifier: series
-    #  name: 系列文章
-    #  url: /series/
-    #  weight: 3
-    - identifier: archives
-      name: 归档
-      url: /archives/
-      weight: 1
+#    - identifier: series
+#      name: 系列文章
+#      url: /series/
+#      weight: 1
 
-    - identifier: categories
-      name: 分类
-      url: /categories/
-      weight: 2
+#    - identifier: categories
+#      name: 分类
+#      url: /categories/
+#      weight: 2
 
-  #  - identifier: tags
-  #    name: 标签
-  #    url: /tags/
-  #    weight: 10
+#    - identifier: tags
+#      name: 标签
+#      url: /tags/
+#      weight: 10
     
-
+#     - identifier: archives
+#       name: 归档
+#       url: /archives/
+#       weight: 3
+      - name: Archive
+        url: archives
+        weight: 5
+      - name: Search
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 10
+      - name: Categories
+        url: categories/
+        weight: 10
