@@ -28,9 +28,6 @@ taxonomies:
   category: categories
 
 params:
-	twikoo:
-      version: 1.5.10 // 这个版本号要自己手动修改，和twikoo的版本号要对得上
-
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: '宁少'
   description: "不想写代码的设计师不是一个好产品经理"
@@ -55,6 +52,8 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+	twikoo:
+    version: 1.5.10 // 这个版本号要自己手动修改，和twikoo的版本号要对得上
 
   assets:
     # disableHLJS: true # to disable highlight.js
