@@ -9,11 +9,6 @@
     one : "1 min"
     other: "{{ .Count }} min"
 
-- id: words
-  translation:
-    one : "mot"
-    other: "{{ .Count }} mots"
-
 - id: toc
   translation: "Table des Matières"
 

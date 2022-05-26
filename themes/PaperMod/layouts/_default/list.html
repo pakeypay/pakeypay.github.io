@@ -1,13 +1,13 @@
 {{- define "main" }}
 
-{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- if (and .Site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }} ✨</h1>
+  <h1>{{ .Title }}</h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
@@ -32,20 +32,8 @@
 
 {{- $paginator := .Paginate $pages }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
-{{- end }}
-
-{{- if $.IsHome }}
-<div class="main-page-categories-wrapper">
-  {{ range $_, $taxonomy := .Site.Taxonomies.categories }}
-  <span>
-    <a href="{{ .Page.Permalink }}">{{.Page.Title}} 
-      <!-- <small>({{ $taxonomy.Count }})</small> -->
-    </a>
-  </span>
-  {{ end }}
-</div>
 {{- end }}
 
 {{- $term := .Data.Term }}
@@ -53,7 +41,7 @@
 
 {{- $class := "post-entry" }}
 
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+{{- $user_preferred := or .Site.Params.disableSpecial1stPost .Site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
@@ -61,7 +49,7 @@
 {{- end }}
 
 <article class="{{ $class }}">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>

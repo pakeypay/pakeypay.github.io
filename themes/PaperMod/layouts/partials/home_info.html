@@ -1,4 +1,4 @@
-{{- with site.Params.homeInfoParams }}
+{{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
@@ -6,10 +6,8 @@
     <section class="entry-content">
         <p>{{ .Content | markdownify }}</p>
     </section>
-    {{- if site.Params.socialIcons -}}
     <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
+        {{ partial "social_icons.html" $.Site.Params.socialIcons }}
     </footer>
-    {{- end }}
 </article>
 {{- end -}}
