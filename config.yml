@@ -71,9 +71,11 @@ params:
     Title: "Hi！"
     Content: "我是宁！曾在阿里做设计，分享职场和生活的感悟在这。若你觉着有意思，加我微信：pakeypay。"
 
-  # socialIcons:
-   #  - name: twitter
-  #     url: "https://weibo.com/shaoning001"
+
+    socialIcons:
+        - name: weibo
+          url: "https://weibo.com/shaoning001"
+
   #   - name: wechat
   #     url: "https://stackoverflow.com"
   #   - name: github
