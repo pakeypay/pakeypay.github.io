@@ -20,8 +20,40 @@
       {{- partial "post_canonical.html" . -}}
     </div>
     {{- end }}
+
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-info">
+      {{ with .Params.tags }}
+      <ul id="tags">
+        🏷️
+        {{ range . }}
+          <li> <a href="{{ "tags" | absURL }}/{{ . | urlize }}"># {{ . }}</a> </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+
+      {{ with .Params.series }}
+      <ul id="series">
+        🅰️
+        {{ range . }}
+          <li> <a href="{{ "topics" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+
+      {{ with .Params.categories }}
+      <ul id="categories">
+        ✨
+        {{ range . }}
+          <li><a href="{{ "categories" | absURL}}/{{ . | urlize }}">{{ . }}</a> </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    {{- end }}
+
   </header>
-  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
@@ -35,6 +67,7 @@
   </div>
   {{- end }}
 
+  <!-- 
   <footer class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">
@@ -46,10 +79,11 @@
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
-    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
   </footer>
+ -->
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}

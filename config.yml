@@ -69,12 +69,14 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi！"
-    Content: "我是宁！曾在阿里做设计，分享职场和生活的感悟在这。若你觉着有意思，加我微信：pakeypay。"
+    Content: "我是宁！曾在阿里做设计，分享职场和生活的感悟在这。若你觉着有意思，可以点击下面关注我微博，或者加我微信：pakeypay。"
 
-
-    socialIcons:
-        - name: weibo
-          url: "https://weibo.com/shaoning001"
+  socialIcons:
+      - name: weibo
+        url: "https://weibo.com/shaoning001"
+  #  socialIcons:
+  #      - name: weibo
+  #        url: "https://weibo.com/shaoning001"
 
   #   - name: wechat
   #     url: "https://stackoverflow.com"
@@ -134,15 +136,12 @@ menu:
 #       name: 归档
 #       url: /archives/
 #       weight: 3
-      - name: Archive
+      - name: 归档
         url: archives
         weight: 5
-      - name: Search
+      - name: 搜索
         url: search/
         weight: 10
-      - name: Tags
-        url: tags/
-        weight: 10
-      - name: Categories
+      - name: 分类
         url: categories/
         weight: 10
