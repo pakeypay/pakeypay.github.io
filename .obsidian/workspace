@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7ac2e846e003c32b",
+        "id": "f50fcec2f657c59a",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,12 +82,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7ac2e846e003c32b",
+  "active": "f50fcec2f657c59a",
   "lastOpenFiles": [
+    "obs_scripts/主面板.md",
     "content/posts/人教版插图事件的N个角度.md",
     "content/posts/好的投资应该是像播种一样.md",
     "content/posts/我们到底为什么这么做？.md",
-    "obs_scripts/主面板.md",
     "content/posts/2022m4d12h13m13s22.md"
   ]
 }
