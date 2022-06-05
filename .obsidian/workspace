@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ffdd58aeb2f53b21",
+        "id": "e8673e09f5690db0",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ffdd58aeb2f53b21",
+  "active": "e8673e09f5690db0",
   "lastOpenFiles": [
-    "content/posts/行为模式的突破更重要.md",
+    "content/posts/壁垒就是我的核心竞争力.md",
+    "content/posts/好的投资应该是像播种一样.md",
+    "content/posts/我们到底为什么这么做？.md",
+    "content/posts/做题家的优势和劣势.md",
+    "content/posts/人教版插图事件的N个角度.md",
     "content/posts/时间并不是公平的.md",
     "content/posts/最佳实践-时间和注意力系统的搭建.md",
-    "content/posts/好的投资应该是像播种一样.md",
-    "content/posts/人教版插图事件的N个角度.md",
+    "content/posts/行为模式的突破更重要.md",
     "content/posts/避开注意力陷阱，更好的时间管理.md",
-    "content/posts/2022m4d11h19m42s28.md",
-    "content/posts/2022m4d12h13m13s22.md",
-    "content/posts/我们到底为什么这么做？.md",
     "obs_scripts/主面板.md"
   ]
 }
