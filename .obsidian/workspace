@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "623a23aefa6327bc",
+        "id": "cce56874bafd6d45",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,13 +82,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "623a23aefa6327bc",
+  "active": "cce56874bafd6d45",
   "lastOpenFiles": [
     "content/posts/行为模式的突破更重要.md",
     "content/posts/避开注意力陷阱，更好的时间管理.md",
-    "content/posts/时间管理最佳实践.md",
-    "content/posts/人教版插图事件的N个角度.md",
+    "content/posts/最佳实践-时间和注意力系统的搭建.md",
     "obs_scripts/主面板.md",
+    "content/posts/人教版插图事件的N个角度.md",
     "content/posts/好的投资应该是像播种一样.md",
     "content/posts/我们到底为什么这么做？.md",
     "content/posts/2022m4d12h13m13s22.md"
