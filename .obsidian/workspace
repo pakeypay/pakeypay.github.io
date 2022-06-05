@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f50fcec2f657c59a",
+        "id": "623a23aefa6327bc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "obs_scripts/主面板.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obs_scripts/主面板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,10 +82,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f50fcec2f657c59a",
+  "active": "623a23aefa6327bc",
   "lastOpenFiles": [
-    "obs_scripts/主面板.md",
+    "content/posts/行为模式的突破更重要.md",
+    "content/posts/避开注意力陷阱，更好的时间管理.md",
+    "content/posts/时间管理最佳实践.md",
     "content/posts/人教版插图事件的N个角度.md",
+    "obs_scripts/主面板.md",
     "content/posts/好的投资应该是像播种一样.md",
     "content/posts/我们到底为什么这么做？.md",
     "content/posts/2022m4d12h13m13s22.md"
