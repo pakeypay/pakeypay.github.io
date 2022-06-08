@@ -7,8 +7,12 @@
         "id": "e8673e09f5690db0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/最佳实践-时间和注意力系统的搭建.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/最佳实践-时间和注意力系统的搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "e8673e09f5690db0",
   "lastOpenFiles": [
+    "content/posts/最佳实践-时间和注意力系统的搭建.md",
+    "content/posts/行为模式的突破更重要.md",
+    "content/posts/避开注意力陷阱，更好的时间管理.md",
+    "obs_scripts/主面板.md",
     "content/posts/壁垒就是我的核心竞争力.md",
     "content/posts/好的投资应该是像播种一样.md",
     "content/posts/我们到底为什么这么做？.md",
     "content/posts/做题家的优势和劣势.md",
     "content/posts/人教版插图事件的N个角度.md",
-    "content/posts/时间并不是公平的.md",
-    "content/posts/最佳实践-时间和注意力系统的搭建.md",
-    "content/posts/行为模式的突破更重要.md",
-    "content/posts/避开注意力陷阱，更好的时间管理.md",
-    "obs_scripts/主面板.md"
+    "content/posts/时间并不是公平的.md"
   ]
 }
