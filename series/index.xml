@@ -8,18 +8,9 @@
     <language>zh-ch</language>
     <lastBuildDate>Sun, 05 Jun 2022 00:18:11 +0800</lastBuildDate><atom:link href="https://pakeypay.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>碎碎念</title>
-      <link>https://pakeypay.github.io/series/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
-      <pubDate>Sun, 05 Jun 2022 00:18:11 +0800</pubDate>
-      
-      <guid>https://pakeypay.github.io/series/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>时间管理</title>
       <link>https://pakeypay.github.io/series/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Sat, 04 Jun 2022 00:18:11 +0800</pubDate>
+      <pubDate>Sun, 05 Jun 2022 00:18:11 +0800</pubDate>
       
       <guid>https://pakeypay.github.io/series/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</guid>
       <description></description>
@@ -31,6 +22,15 @@
       <pubDate>Sun, 29 May 2022 00:18:11 +0800</pubDate>
       
       <guid>https://pakeypay.github.io/series/tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>碎碎念</title>
+      <link>https://pakeypay.github.io/series/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+      <pubDate>Sun, 29 May 2022 00:18:11 +0800</pubDate>
+      
+      <guid>https://pakeypay.github.io/series/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
       <description></description>
     </item>
     
