@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e8673e09f5690db0",
+        "id": "3dfe3e2991359310",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obs_scripts/主面板.md",
-            "mode": "preview",
+            "file": "content/posts/避开注意力陷阱，更好的时间管理.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obs_scripts/主面板.md",
+                "file": "content/posts/避开注意力陷阱，更好的时间管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e8673e09f5690db0",
+  "active": "3dfe3e2991359310",
   "lastOpenFiles": [
+    "content/posts/避开注意力陷阱，更好的时间管理.md",
     "obs_scripts/主面板.md",
     "content/posts/最佳实践-时间和注意力系统的搭建.md",
     "content/posts/行为模式的突破更重要.md",
-    "content/posts/避开注意力陷阱，更好的时间管理.md",
     "content/posts/壁垒就是我的核心竞争力.md",
     "content/posts/好的投资应该是像播种一样.md",
     "content/posts/我们到底为什么这么做？.md",
