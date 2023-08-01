@@ -4,85 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "404a4058124907d1",
+        "id": "1cae55ba89a54d26",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "一点小随想.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4668557fcd4ff23d",
-    "type": "split",
+    "id": "e6f0a5b185579af1",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "1fdb929223c2e1d0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2392e1a80e5d5e89",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "1db947880e562afd",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "d43e18d1992414cb",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "f63caba673f700cb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "37205bc4dc8ab7ec",
-    "type": "split",
+    "id": "41a571b6ec765937",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "8d938caa79e74645",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "23e573b2e6c8bafc",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "a9b563b8e5f15a3f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "一点小随想.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "404a4058124907d1",
+  "active": "d43e18d1992414cb",
   "lastOpenFiles": [
     "麻绳总从细处断.md",
     "人教版插图事件的N个角度.md",
