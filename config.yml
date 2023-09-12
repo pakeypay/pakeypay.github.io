@@ -51,7 +51,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  comments: true
+  comments: false
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -145,3 +145,14 @@ menu:
       - name: 分类
         url: categories/
         weight: 10
+
+params:
+    valine:
+        enable: true
+        appId: 2egge76AxAUMsUlmQtZSRING-gzGzoHsz
+        appKey: Ax1eZspk5m7aL7zjbQuidbXO
+        notify: false  # mail notifier , https://github.com/xCss/Valine/wiki
+        verify: false
+        avatar: mm
+        placeholder: 说点什么吧...
+        visitor: true
