@@ -1,10 +1,5 @@
-{{- define "main" }}
 
-{{- if (and site.Params.profileMode.enabled .IsHome) }}
-{{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
-
-{{- if not .IsHome | and .Title }}
+<!DOCTYPE html>
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>{{ .Title }}</h1>
@@ -82,8 +77,4 @@
     {{- end }}
   </nav>
 </footer>
-{{- end }}
-
-{{- end }}{{/* end profileMode */}}
-
-{{- end }}{{- /* end main */ -}}
+</html>
