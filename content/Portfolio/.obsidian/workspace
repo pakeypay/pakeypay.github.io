@@ -1,0 +1,85 @@
+{
+  "main": {
+    "id": "e551164ffb1e995f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cae55ba89a54d26",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "一点小随想.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6f0a5b185579af1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d43e18d1992414cb",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "f63caba673f700cb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "41a571b6ec765937",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a9b563b8e5f15a3f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "一点小随想.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "d43e18d1992414cb",
+  "lastOpenFiles": [
+    "麻绳总从细处断.md",
+    "人教版插图事件的N个角度.md",
+    "行为模式的突破更重要.md",
+    "避开注意力陷阱，更好的时间管理.md",
+    "我们到底为什么这么做？.md",
+    "好的投资应该是像播种一样.md",
+    "做题家的优势和劣势.md"
+  ]
+}
